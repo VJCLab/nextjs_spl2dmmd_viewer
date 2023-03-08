@@ -1,0 +1,30 @@
+{
+    "t": "mmd",
+    "b": [
+        null,
+        null,
+        null,
+        "https://raw.githack.com/jomin398/mmd_bk/master/model/"
+    ],
+    "d":[
+        {
+            "t": "初音ミク",
+            "d": [
+                {
+                    "n": "Tda式 初音ミク V4X",
+                    "r": 3
+                }
+            ]
+        },
+        {
+            "t": "アズールレーン",
+            "d": [
+                {
+                    "n": "綾波",
+                    "f": "Ayanami",
+                    "r": 3
+                }
+            ]
+        }
+    ]
+}

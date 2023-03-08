@@ -1,0 +1,106 @@
+.p {
+    white-space: pre-line;
+}
+
+.hide {
+    display: none !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.ptitle {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.dndBox {
+    width: inherit;
+    height: 130px;
+    margin: 5px auto;
+    border: 1px dashed #000;
+}
+
+.sel_continer {
+    width: 350px;
+    border: 2px dashed #4580c4;
+    /* min-width: 350px; */
+}
+.sel_continer .chrsel.flex{
+    justify-content: center;
+}
+.folder_continer {
+    height: 140px;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+.chrsel_span {
+    text-align: center;
+    position: relative;
+}
+
+.chrsel_span.folder {
+    width: 100%;
+    min-height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-flex;
+}
+.folder .chrsel{
+    gap: 10px;
+}
+.chrsel_span.item {
+    min-width: 140px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zip_item_i {
+    font-size: 4em;
+    color: #4580c4;
+}
+
+.zip_item_p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.urlCont {
+    margin-top: 10px;
+}
+
+/* url */
+.zip_item_inp_url {
+    width: 340px;
+}
+.windowCfg {
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: unset;
+}
+
+@media (min-width: 1281px){
+    .folder_continer {
+        height: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .windowCfg{
+        min-width: unset;
+    }
+    .sel_continer {
+        width: initial;
+    }
+    .zip_item_inp_url {
+        width: calc(100% - 2px);
+    }
+}

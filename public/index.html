@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="SpineAnimation and MMD viewer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spine MMD Viewer</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/7.css@0.11.0/dist/7.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fupload.css">
+    <link rel="stylesheet" href="./css/pgn.css">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.150.0/+esm",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.150.0/examples/jsm/",
+                "jszip": "https://cdn.jsdelivr.net/npm/jszip@3.10.1/+esm",
+                "megajs": "https://cdn.jsdelivr.net/npm/megajs@1.1.1/+esm"
+            }
+        }
+    </script>
+    <script type="module" src="./src/index.js"></script>
+</head>
+
+<body>
+    <main class="main">
+        <menu>
+            <form class="window glass active windowCfg" id="file">
+                <div class="title-bar">
+                    <div class="title-bar-text">
+                        Chr loader.exe
+                    </div>
+                    <div class="title-bar-controls">
+                        <!-- <button aria-label="Minimize"></button> -->
+                        <button aria-label="Maximize" class="pcView"
+                            onclick="this.parentElement.parentElement.parentElement.classList.toggle('maximum')"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body has-space">
+                    <p class="p ptitle">Asset 파일이 필요합니다.</p>
+                    <section>
+                        <label for='chrUpload'>케릭터 파일를 여기에 업로드</label>
+                        <div class="dndBox" id='chrUpload'>
+                            <input class="btn-file d-none" type="file" multiple required />
+                        </div>
+                        <label for="sel_continer" style="font-size:1.2em;font-weight:bolder;">선택가능한 예제파일입니다</label>
+                        <div class="sel_continer" id="sel_continer">
+                            <div class="chrsel flex">
+                                <span class="chrsel_span urlCont">
+                                    <label for="url">다이렉트 다운로드 링크 (클라우드 저장소)</label>
+                                    <input type="url" name="url" id="url" placeholder="https://example.com/demo.zip"
+                                        class="zip_item_inp_url" />
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                    <section style="margin-top: 1em">
+                        <fieldset>
+                            <legend>렌더링 설정</legend>
+                            <div class="field-row">
+                                <input id="auto" type="checkbox" name="auto" checked />
+                                <label for="auto">자동설정 (모델에 파일에 따라 자동으로 설정)</label>
+                            </div>
+                            <details>
+                                <summary style="margin-left:10px;">수동 설정</summary>
+                                <div class="field-row" style="margin-left:10px;">
+                                    <input id="bkTrans" type="checkbox" name="bkTrans" checked />
+                                    <label for="bkTrans">투명 배경</label>
+                                </div>
+                                <div class="field-row" style="margin-left:10px;">
+                                    <input type="color" name="bkCol" id="bkCol" value="#ffffff">
+                                    <label for="bkTrans">배경색</label>
+                                </div>
+                                <div class="field-row" style="margin-left:10px;">
+                                    <input id="pma" type="checkbox" name="pma" />
+                                    <label for="pma">색 자연화</label>
+                                </div>
+                                <details>
+                                    <summary style="margin-left:20px;">설명</summary>
+                                    <p class={styles.p}>Alpha 체널을 활용해 두 색간 차이를 자연스럽게 해준다.
+                                        원문 : <a
+                                            href="https://microsoft.github.io/Win2D/WinUI3/html/PremultipliedAlpha.htm"
+                                            target="_blank" rel="noopener noreferrer">Premultiplied Alpha</a>
+                                    </p>
+                                </details>
+                                <div class="field-row" style="margin-left:10px;">
+                                    <label for="ver">렌더링 모델 버전</label>
+                                    <input id="ver" type="number" name="opt" defaultValue="4.0" step="any"
+                                        style="color:unset;" />
+                                </div>
+                                <details>
+                                    <summary style="margin-left:20px;">설명</summary>
+                                    <p>Spine Animation의 모델 버전을 수동 설정.</p>
+                                </details>
+                                <label for='field-row' style="margin-left:10px;">바닥 (MMD에서만 적용)</label>
+                                <div class="field-row" style="display:flex;justify-content:space-evenly;">
+                                    <input id="gr_no" type="radio" name="ground" checked />
+                                    <label for="gr_no">투명 (없음)</label>
+                                    <input id="gr_mirr" type="radio" name="ground" />
+                                    <label for="gr_mirr">거울</label>
+                                    <input id="gr_flat" type="radio" name="ground" />
+                                    <label for="gr_flat">평지</label>
+                                </div>
+                            </details>
+                        </fieldset>
+                        <details open>
+                            <summary style="margin-left:10px;font-size:15px;">업로드 설명</summary>
+                            <p translate='no'>배경 (Stage, background)</p>
+                            <p>배경이 없다면 투명으로 적용됩니다</p>
+                            <br>
+                            <p>MMD</p>
+                            <p>반드시 <ruby>모션<rt>.vmd</rt>은 포함 해야됩니다.</ruby></p>
+                            <br>
+                            <p>SPINE</p>
+                            <p>폴더 업로드는 미지원합니다.</p>
+                            <br>
+                            <p>클라우드 저장소</p>
+                            <p>gitRaw(raw.githack), mega 파일 등등 링크 지원</p>
+                        </details>
+                    </section>
+                    <section class="field-row fieldEnd" style="justify-content: flex-end;margin-top:1em;">
+                        <button class="default" type="submit">전송</button>
+                        <button type="reset" onclick="()=> window.location.reload()">취소</button>
+                    </section>
+                </div>
+            </form>
+        </menu>
+        <div class="window glass active rendDisp hide">
+            <div class="title-bar">
+                <div class="title-bar-text">
+                    Chr Render.exe
+                </div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body dspCont">
+                <div id="player-container" style="width:inherit;height:100%;"></div>
+            </div>
+        </div>
+    </main>
+    <div class="flex flexCenter topist errorPop hide">
+        <div class="window active is-bright" style="min-width: 370px;">
+            <div class="title-bar">
+                <div class="title-bar-text" id="dialog-title">Runtime Library</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close" onclick="history.back()"></button>
+                </div>
+            </div>
+            <div class="window-body has-space flex">
+                <span class="material-symbols-outlined" id="cancelIcon">
+                    cancel
+                    </span>
+                <div class="desc">
+                    <p>Runtime Error!</p>
+                    <p>Program:</p>
+                    <p>An application has made an load the asset incorrectly.</p>
+                </div>
+            </div>
+            <footer style="text-align: right">
+                <button onclick="history.back()">Cancel</button>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

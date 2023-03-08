@@ -1,0 +1,26 @@
+{
+    "t": "블루아카이브",
+    "b": [
+        null,
+        null,
+        null,
+        "https://raw.githack.com/respectZ/blue-archive-spine/main/assets/spine/"
+    ],
+    "d": [
+        {
+            "n": "arona",
+            "f": "Arona",
+            "r": 0
+        },
+        {
+            "n": "初音ミク",
+            "m":["ch9999_home/CH9999_home.atlas","ch9999_home/CH9999_home.skel","ch9999_home/CH9999_home.png","ch9999_home/CH9999_home2.png","ch9999_home/CH9999_home3.png"],
+            "dress": [
+                "home",
+                "spr"
+            ],
+            "r": 3,
+            "raw": true
+        }
+    ]
+}

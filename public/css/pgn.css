@@ -1,0 +1,33 @@
+.pgnDisp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pgnDisp .window-body{
+    padding: 1em;
+}
+
+.descMiddle {
+    margin: 12px 0;
+}
+
+.descTop {
+    margin: 0 6px 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 7px 1em;
+    display: flex;
+    align-items: center;
+    width: inherit;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #dbe4f3 0%, #17587b 100%);
+}
+
+.system {
+    min-width: 370px;
+}

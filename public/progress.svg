@@ -1,0 +1,8 @@
+<svg width="17" height="14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#4c4c4c" id="svg_1" height="5.67442" width="13.76744" y="3.04651" x="1.10465" fill="none"/>
+  <rect id="svg_2" height="4" width="3.72093" y="3.88372" x="2.12791" stroke="#00bf5f" fill="#00bf5f"/>
+  <path transform="rotate(90 12.3713 9.43762)" stroke="#56aaff" id="svg_3" d="m9.16197,9.42735l3.2093,-4.2688l3.2093,4.2688l-1.60465,0l0,4.28934l-3.2093,0l0,-4.28934l-1.60465,0z" fill="#56aaff"/>
+ </g>
+</svg>

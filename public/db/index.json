@@ -1,0 +1,31 @@
+[
+    {
+        "t": "spine",
+        "d": [
+            {
+                "t": "nikke",
+                "b": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "d": [
+                    {
+                        "n": "바이퍼",
+                        "f": "c112_00",
+                        "r": 0
+                    }
+                ]
+            },
+            {
+                "t": "블루아카이브",
+                "l": "bluearchive.json"
+            }
+        ]
+    },
+    {
+        "t": "mmd",
+        "l": "mmd.json"
+    }
+]

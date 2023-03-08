@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 6rem; */
+    padding: 0;
+    justify-content: center;
+    height: inherit;
+    color: #000;
+}
+
+.dspCont {
+    width: inherit;
+    height: calc(100% - 35px);
+    padding: 0 !important;
+    margin: 0;
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+
+.title-bar:has(.title-icon) {
+    margin-left: 25px;
+}
+
+.title-bar .title-icon {
+    top: 8px;
+    left: 8px;
+    position: absolute;
+}
+
+.pcView {
+    display: none;
+}
+
+.maximum {
+    width: 800px !important;
+}
+
+.topist {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.flexCenter {
+    justify-content: center;
+    align-items: center;
+}
+.errorPop .window-body p{
+    margin: 1em;
+}
+.errorPop #cancelIcon{
+    margin: 0.8rem -5px 0 0.2em;
+    font-size: 1.9rem;
+    color: #d04e37;
+}
+@media (min-width: 1281px) {
+    .pcView {
+        display: block;
+    }
+}

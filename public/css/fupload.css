@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.window {
+    width: fit-content;
+}
+
 .ptitle {
     margin: 0.5em 0;
     font-size: 1.5em;
@@ -27,15 +31,19 @@
     border: 2px dashed #4580c4;
     /* min-width: 350px; */
 }
-.sel_continer .chrsel.flex{
+
+.sel_continer .chrsel.flex {
     justify-content: center;
+    flex-wrap: wrap;
 }
+
 .folder_continer {
     height: 140px;
     overflow: auto;
     white-space: nowrap;
     text-align: center;
 }
+
 .chrsel_span {
     text-align: center;
     position: relative;
@@ -48,9 +56,11 @@
     justify-content: center;
     display: inline-flex;
 }
-.folder .chrsel{
+
+.folder .chrsel {
     gap: 10px;
 }
+
 .chrsel_span.item {
     min-width: 140px;
     min-height: 120px;
@@ -79,14 +89,24 @@
 .zip_item_inp_url {
     width: 340px;
 }
+
 .windowCfg {
     min-width: 350px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     backdrop-filter: unset;
 }
+.windowCfg .window-body{
+    overflow: auto;
+}
+.maximum .window-body{
+    height: calc( 100% - 50px);
+}
+.maximum .sel_continer{
+    min-height: 500px;
+}
 
-@media (min-width: 1281px){
+@media (min-width: 1281px) {
     .folder_continer {
         height: initial;
         display: flex;
@@ -94,12 +114,15 @@
         align-items: center;
         gap: 5px;
     }
-    .windowCfg{
+
+    .windowCfg {
         min-width: unset;
     }
+
     .sel_continer {
         width: initial;
     }
+
     .zip_item_inp_url {
         width: calc(100% - 2px);
     }

@@ -17,8 +17,12 @@ body {
     /* padding: 6rem; */
     padding: 0;
     justify-content: center;
-    height: inherit;
     color: #000;
+}
+
+.inh_wh {
+    width: inherit;
+    height: inherit;
 }
 
 .dspCont {
@@ -46,7 +50,9 @@ body {
 }
 
 .maximum {
-    width: 800px !important;
+    border: unset;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .topist {
@@ -58,18 +64,36 @@ body {
     z-index: 9999;
 }
 
+.flexCol {
+    flex-direction: column;
+}
+
 .flexCenter {
     justify-content: center;
     align-items: center;
 }
-.errorPop .window-body p{
+
+.errorPop .window-body p {
     margin: 1em;
 }
-.errorPop #cancelIcon{
+
+.errorPop #cancelIcon {
     margin: 0.8rem -5px 0 0.2em;
     font-size: 1.9rem;
     color: #d04e37;
 }
+
+.window.glass {
+    -webkit-backdrop-filter: unset;
+    backdrop-filter: unset;
+}
+
+.windowFull {
+    display: flex;
+    flex-direction: column;
+    border: unset;
+}
+
 @media (min-width: 1281px) {
     .pcView {
         display: block;

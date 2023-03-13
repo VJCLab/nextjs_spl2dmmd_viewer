@@ -35,7 +35,7 @@ async function urlhandler(url, onprogress) {
         d = await new Promise((resolve, reject) => {
             let xhr = new XMLHttpRequest();
             console.log(getNameFromPath(url))
-            if (isPgr) xhr.onprogress = (e) => onprogress(Object.assign(e, { name: getNameFromPath(url) }));
+            if (isPgr) xhr.onprogress = (e) => onprogress(Object.assign(e, { name: getNameFromPath(url),u:url }));
             xhr.open('get', url, true);
             xhr.responseType = "arraybuffer";
             xhr.onload = () => {
@@ -88,14 +88,50 @@ export async function fileList2ArrBuff(files, onprogress) {
     */
     let caseNum = isDumy == null & isNoZip ? 1 : isNoZip ? 2 : 0;
 
-    let url = caseNum == 2 ? await fileReader(files[0], 1, onprogress) : null;
+    let url = caseNum == 2 ? await fileReader(files[0], 1) : null;
     let isMutiUrl = url ? url.split('\n').length != 1 : false;
     // console.log(isMutiUrl)
 
     if (isMutiUrl) {
-        files = await Promise.all(url.split('\n').map(uls => fetch(uls).then(r => r.blob()).then(b => new File([b], getNameFromPath(uls)))
-        ))
+        let done = false;
+        let p = {};
+        let callback = () => {
+            let msgs = [];
+            Object.entries(p).forEach(([k, x]) => {
+                if (x.lengthComputable) {
+                    const percentComplete = x.loaded / x.total * 100;
+                    msgs.push(`${Math.round(percentComplete, 2)}% downloaded.${x.name ? ` ${x.name}` : ''}`);
+                }
+            })
+            console.log(msgs)
+            // console.log(p, p.done)
+        }
+        files = await Promise.all(url.split('\n').map(uls => {
+            // fetch(uls).then(r => r.blob()).then(b => new File([b], getNameFromPath(uls)))
+            const req = new Promise((resolve, reject) => {
+                let xhr = new XMLHttpRequest();
+                //console.log(getNameFromPath(uls))
+
+                xhr.onprogress = (e) => {
+                    p[getNameFromPath(uls)] = Object.assign(e, { name: getNameFromPath(uls) });
+                    callback()
+                };
+                xhr.open('get', uls, true);
+                xhr.responseType = "blob";
+                xhr.onload = () => {
+                    if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                        resolve(new File([xhr.response], getNameFromPath(uls)));
+                    } else {
+                        reject({ status: xhr.status, statusText: xhr.statusText });
+                    }
+                }
+                xhr.send(null);
+            })
+            return req;
+        }))
         caseNum = 1;
+        done = true;
+        callback();
     }
     // if(url.split('\n').length!=1) caseNum = 
     // console.log(caseNum, files);

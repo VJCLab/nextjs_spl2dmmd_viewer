@@ -1,0 +1,83 @@
+{
+    "t": "Ramengo",
+    "b": [
+        null,
+        null,
+        null,
+        "https://raw.githack.com/jomin398/spine-db/master/other/Ramengo/spine/"
+    ],
+    "d": [
+        {
+            "n": "R00700_Spine",
+            "r": 3
+        },
+        {
+            "n": "R02800_Bare_Spine",
+            "r": 3
+        },
+        {
+            "n": "R02800_Spine",
+            "r": 3
+        },
+        {
+            "n": "R02801_Love",
+            "r": 3
+        },
+        {
+            "n": "R02801_Spine",
+            "r": 3
+        },
+        {
+            "n": "R02802_Love",
+            "r": 3
+        },
+        {
+            "n": "R02802_Spine",
+            "r": 3
+        },
+        {
+            "n": "R02803_Love",
+            "r": 3
+        },
+        {
+            "n": "R02804_Love",
+            "r": 3
+        },
+        {
+            "n": "R02805_Love",
+            "r": 3
+        },
+        {
+            "n": "R04900_Gift",
+            "r": 3
+        },
+        {
+            "n": "R04900_Spine",
+            "r": 3
+        },
+        {
+            "n": "R04901_Love",
+            "r": 3
+        },
+        {
+            "n": "R04901_Spine",
+            "r": 3
+        },
+        {
+            "n": "R04902_Love",
+            "r": 3
+        },
+        {
+            "n": "R04903_Love",
+            "r": 3
+        },
+        {
+            "n": "R04904_Love",
+            "r": 3
+        },
+        {
+            "n": "R04905_Love",
+            "r": 3
+        }
+    ]
+}

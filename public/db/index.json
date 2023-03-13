@@ -21,6 +21,26 @@
             {
                 "t": "블루아카이브",
                 "l": "bluearchive.json"
+            },
+            {
+                "t": "プリンセスコネクト！Re:Dive",
+                "l": "pcr.json"
+            },
+            {
+                "t": "baiyeint",
+                "l": "baiyeint.json"
+            },
+            {
+                "t": "Eternal Return",
+                "l": "eternalreturn.json"
+            },
+            {
+                "t": "Ramengo",
+                "l": "ramengo.json"
+            },
+            {
+                "t": "TenkafuMA!",
+                "l": "tkfm.json"
             }
         ]
     },

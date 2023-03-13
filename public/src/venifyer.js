@@ -105,9 +105,17 @@ export default class Venifyer {
             }
         } 
          */
-        let d = await fileList2ArrBuff(this.data.files).catch(e => {
-            throw new Errors.VenifyLoadError(e);
-        });
+        console.log('prepare venify')
+        console.log('tempory loading asset...')
+        let d = await fileList2ArrBuff(this.data.files,
+            (xhr) => {
+                if (xhr.lengthComputable) {
+                    const percentComplete = xhr.loaded / xhr.total * 100;
+                    console.log(`${Math.round(percentComplete, 2)}% downloaded.${xhr.name ? ` ${xhr.name}` : ''}`);
+                }
+            }).catch(e => {
+                throw new Errors.VenifyLoadError(e);
+            });
         //console.log(d)
         const fileUrl = d.u;
         d = d.d;
@@ -119,6 +127,7 @@ export default class Venifyer {
             this.data.zip = await new zipper(d).unzip();
             d = Object.values(this.data.zip.files);
         }
+        console.log('indexing files...')
         d.forEach(f => {
             if (f.name.includes('skel') || f.name.includes('json')) {
                 data.ctSk ??= 0;
@@ -132,8 +141,12 @@ export default class Venifyer {
                 data.atlLst ??= [];
                 data.atlLst.push(f)
             };
+            if (f.name.includes('png') || f.name.includes('jpg') || f.name.includes('bmp')) { data.texture ??= 0; data.texture++; }
             if (f.name.includes('pmx') || f.name.includes('pmd')) { data.pmx ??= 0; data.pmx++; }
+            // 
         });
+        console.log(data.ctAt ?? 0, data.ctSk ?? 0, data.pmx ?? 0, data.texture ?? 0)
+        delete data.texture;
         this.data.raw = d;
         /** 
          * @param {Array<File>} arr FileArray
@@ -164,6 +177,7 @@ export default class Venifyer {
                 pmx: this.data.raw.find(e => e.name.includes('pmx') || e.name.includes('pmd'))
             }
         }
+        console.log('filetype:', this.data.type)
         this.data.rootName = comper == 1 ? this.#findRootName(this.data.zip) : null;
     }
 

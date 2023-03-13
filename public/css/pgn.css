@@ -2,14 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.pgnDisp .window-body{
+.pgnDisp .window-body {
     padding: 1em;
 }
 
 .descMiddle {
     margin: 12px 0;
+    display: flex;
+    margin: 12px 0;
+    flex-direction: column;
 }
 
 .descTop {

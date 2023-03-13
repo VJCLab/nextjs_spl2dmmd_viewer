@@ -1,0 +1,83 @@
+{
+    "t": "baiyeint",
+    "b": [
+        null,
+        null,
+        null,
+        "https://raw.githack.com/jomin398/spine-db/master/other/baiyeint/spine/"
+    ],
+    "d": [
+        {
+            "n": "Amy",
+            "r": 3
+        },
+        {
+            "n": "Angel",
+            "r": 3
+        },
+        {
+            "n": "Areia",
+            "r": 3
+        },
+        {
+            "n": "Beryl",
+            "r": 3
+        },
+        {
+            "n": "Carleen",
+            "r": 3
+        },
+        {
+            "n": "Chloe",
+            "r": 3
+        },
+        {
+            "n": "Elma",
+            "r": 3
+        },
+        {
+            "n": "Eve",
+            "r": 3
+        },
+        {
+            "n": "Gabriel",
+            "r": 3
+        },
+        {
+            "n": "Gronru",
+            "r": 3
+        },
+        {
+            "n": "Kanna",
+            "r": 3
+        },
+        {
+            "n": "Lucoa",
+            "r": 3
+        },
+        {
+            "n": "n10_g",
+            "r": 3
+        },
+        {
+            "n": "n10_kv_1",
+            "r": 3
+        },
+        {
+            "n": "Tohru",
+            "r": 3
+        },
+        {
+            "n": "Unimet",
+            "r": 3
+        },
+        {
+            "n": "Uriel",
+            "r": 3
+        },
+        {
+            "n": "Vice",
+            "r": 3
+        }
+    ]
+}

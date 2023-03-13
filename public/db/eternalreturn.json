@@ -1,0 +1,31 @@
+{
+    "t": "Eternal Return",
+    "b": [
+        null,
+        null,
+        null,
+        "https://raw.githack.com/jomin398/spine-db/master/other/EternalReturn/spine/"
+    ],
+    "d": [
+        {
+            "n": "ER_Title_01",
+            "r": 3
+        },
+        {
+            "n": "ER_Title_02",
+            "r": 3
+        },
+        {
+            "n": "ER_Title_03",
+            "r": 3
+        },
+        {
+            "n": "ER_Title_04",
+            "r": 3
+        },
+        {
+            "n": "ER_Title_05",
+            "r": 3
+        }
+    ]
+}

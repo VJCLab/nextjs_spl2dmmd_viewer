@@ -14,10 +14,2484 @@
         },
         {
             "n": "初音ミク",
-            "m":["ch9999_home/CH9999_home.atlas","ch9999_home/CH9999_home.skel","ch9999_home/CH9999_home.png","ch9999_home/CH9999_home2.png","ch9999_home/CH9999_home3.png"],
-            "dress": [
-                "home",
-                "spr"
+            "ch": true,
+            "m": [
+                "ch9999_home/CH9999_home.atlas",
+                "ch9999_home/CH9999_home.skel",
+                "ch9999_home/CH9999_home.png",
+                "ch9999_home/CH9999_home2.png",
+                "ch9999_home/CH9999_home3.png",
+                "ch9999_spr/CH9999_spr.atlas",
+                "ch9999_spr/CH9999_spr.skel",
+                "ch9999_spr/CH9999_spr.png"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "airi",
+            "m": [
+                "airi_home/Airi_home.atlas",
+                "airi_home/Airi_home.png",
+                "airi_home/Airi_home.skel",
+                "airi_home/Airi_home2.png",
+                "airi_spr/airi_spr.atlas",
+                "airi_spr/airi_spr.png",
+                "airi_spr/airi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "akane",
+            "m": [
+                "akane_home/Akane_home.atlas",
+                "akane_home/Akane_home.png",
+                "akane_home/Akane_home.skel",
+                "akane_spr/akane_spr.atlas",
+                "akane_spr/akane_spr.png",
+                "akane_spr/akane_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "akari",
+            "m": [
+                "akari_home/akari_bg.atlas",
+                "akari_home/akari_bg.png",
+                "akari_home/akari_bg.skel",
+                "akari_home/akari_home.atlas",
+                "akari_home/akari_home.png",
+                "akari_home/akari_home.skel",
+                "akari_home/akari_scene.atlas",
+                "akari_home/akari_scene.png",
+                "akari_home/akari_scene.skel",
+                "akari_spr/akari_spr.atlas",
+                "akari_spr/akari_spr.png",
+                "akari_spr/akari_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ako",
+            "m": [
+                "ako_home/Ako_home.atlas",
+                "ako_home/Ako_home.png",
+                "ako_home/Ako_home.skel",
+                "ako_home/Ako_home2.png",
+                "ako_home_teen/ako_home_Teen.atlas",
+                "ako_home_teen/ako_home_Teen.png",
+                "ako_home_teen/ako_home_Teen.skel",
+                "ako_home_teen/ako_home_Teen2.png",
+                "ako_spr/ako_spr.atlas",
+                "ako_spr/ako_spr.png",
+                "ako_spr/ako_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "aris",
+            "m": [
+                "aris_home/Aris_home.atlas",
+                "aris_home/Aris_home.png",
+                "aris_home/Aris_home.skel",
+                "aris_home/Aris_home2.png",
+                "aris_noweapon_spr/aris_noweapon_spr.atlas",
+                "aris_noweapon_spr/aris_noweapon_spr.png",
+                "aris_noweapon_spr/aris_noweapon_spr.skel",
+                "aris_spr/aris_spr.atlas",
+                "aris_spr/aris_spr.png",
+                "aris_spr/aris_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "arius",
+            "m": [
+                "arius_gl_spr/Arius_GL1_spr.atlas",
+                "arius_gl_spr/Arius_GL1_spr.png",
+                "arius_gl_spr/Arius_GL1_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "aru",
+            "m": [
+                "aru_home/Aru_home.atlas",
+                "aru_home/Aru_home.png",
+                "aru_home/Aru_home.skel",
+                "aru_home/Aru_home2.png",
+                "aru_home/Aru_home3.png",
+                "aru_home/Aru_scene.atlas",
+                "aru_home/Aru_scene.png",
+                "aru_home/Aru_scene.skel",
+                "aru_newyear_home/Aru_newyear_home.atlas",
+                "aru_newyear_home/Aru_newyear_home.png",
+                "aru_newyear_home/Aru_newyear_home.skel",
+                "aru_newyear_home/Aru_newyear_home2.png",
+                "aru_newyear_home/Aru_newyear_home3.png",
+                "aru_newyear_spr/aru_newyear_spr.atlas",
+                "aru_newyear_spr/aru_newyear_spr.png",
+                "aru_newyear_spr/aru_newyear_spr.skel",
+                "aru_spr/aru_spr.atlas",
+                "aru_spr/aru_spr.png",
+                "aru_spr/aru_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "asuna",
+            "m": [
+                "asuna_spr/asuna_spr.atlas",
+                "asuna_spr/asuna_spr.png",
+                "asuna_spr/asuna_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "atsuko",
+            "m": [
+                "atsuko_home/Atsuko_home.atlas",
+                "atsuko_home/Atsuko_home.png",
+                "atsuko_home/Atsuko_home.skel",
+                "atsuko_home/Atsuko_home2.png",
+                "atsuko_spr/atsuko_spr.atlas",
+                "atsuko_spr/atsuko_spr.png",
+                "atsuko_spr/atsuko_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "automata",
+            "m": [
+                "automata_kurokamegumi_spr/Automata_Kurokamegumi1_spr.atlas",
+                "automata_kurokamegumi_spr/Automata_Kurokamegumi1_spr.png",
+                "automata_kurokamegumi_spr/Automata_Kurokamegumi1_spr.skel",
+                "automata_pmc_spr/Automata_PMC1_spr.atlas",
+                "automata_pmc_spr/Automata_PMC1_spr.png",
+                "automata_pmc_spr/Automata_PMC1_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ayane",
+            "m": [
+                "ayane_home/Ayane_home.atlas",
+                "ayane_home/Ayane_home.png",
+                "ayane_home/Ayane_home.skel",
+                "ayane_home/Ayane_home2.png",
+                "ayane_home/Ayane_home3.png",
+                "ayane_robber_spr/ayane_robber_spr.atlas",
+                "ayane_robber_spr/ayane_robber_spr.png",
+                "ayane_robber_spr/ayane_robber_spr.skel",
+                "ayane_spr/ayane_spr.atlas",
+                "ayane_spr/ayane_spr.png",
+                "ayane_spr/ayane_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "azusa",
+            "m": [
+                "azusa_home/Azusa_home.atlas",
+                "azusa_home/Azusa_home.png",
+                "azusa_home/Azusa_home.skel",
+                "azusa_home/Azusa_home2.png",
+                "azusa_spr/azusa_spr.atlas",
+                "azusa_spr/azusa_spr.png",
+                "azusa_spr/azusa_spr.skel",
+                "azusa_swimsuit_home/Azusa_swimsuit_home.atlas",
+                "azusa_swimsuit_home/Azusa_swimsuit_home.png",
+                "azusa_swimsuit_home/Azusa_swimsuit_home.skel",
+                "azusa_swimsuit_home/Azusa_swimsuit_home2.png",
+                "azusa_swimsuit_spr/azusa_swimsuit_spr.atlas",
+                "azusa_swimsuit_spr/azusa_swimsuit_spr.png",
+                "azusa_swimsuit_spr/azusa_swimsuit_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "bunnygirl",
+            "m": [
+                "bunnygirl_sr_spr/BunnyGirl_SR_spr.atlas",
+                "bunnygirl_sr_spr/BunnyGirl_SR_spr.png",
+                "bunnygirl_sr_spr/BunnyGirl_SR_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0058",
+            "m": [
+                "ch0058_home/CH0058_home.atlas",
+                "ch0058_home/CH0058_home.png",
+                "ch0058_home/CH0058_home.skel",
+                "ch0058_home/CH0058_home2.png",
+                "ch0058_spr/CH0058_spr.atlas",
+                "ch0058_spr/CH0058_spr.png",
+                "ch0058_spr/CH0058_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0060",
+            "m": [
+                "ch0060_home/CH0060BG_home.atlas",
+                "ch0060_home/CH0060BG_home.png",
+                "ch0060_home/CH0060BG_home.skel",
+                "ch0060_home/CH0060_home.atlas",
+                "ch0060_home/CH0060_home.png",
+                "ch0060_home/CH0060_home.skel",
+                "ch0060_spr/CH0060_spr.atlas",
+                "ch0060_spr/CH0060_spr.png",
+                "ch0060_spr/CH0060_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0063",
+            "m": [
+                "ch0063_home/CH0063_home.atlas",
+                "ch0063_home/CH0063_home.png",
+                "ch0063_home/CH0063_home.skel",
+                "ch0063_home/CH0063_home2.png",
+                "ch0063_spr/CH0063_spr.atlas",
+                "ch0063_spr/CH0063_spr.png",
+                "ch0063_spr/CH0063_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0064",
+            "m": [
+                "ch0064_home/CH0064_home.atlas",
+                "ch0064_home/CH0064_home.png",
+                "ch0064_home/CH0064_home.skel",
+                "ch0064_home/CH0064_home2.png",
+                "ch0064_spr/CH0064_spr.atlas",
+                "ch0064_spr/CH0064_spr.png",
+                "ch0064_spr/CH0064_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0066",
+            "m": [
+                "ch0066_home/CH0066_home.atlas",
+                "ch0066_home/CH0066_home.png",
+                "ch0066_home/CH0066_home.skel",
+                "ch0066_home/CH0066_home2.png",
+                "ch0066_spr/CH0066_spr.atlas",
+                "ch0066_spr/CH0066_spr.png",
+                "ch0066_spr/CH0066_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0069",
+            "m": [
+                "ch0069_spr/CH0069_spr.atlas",
+                "ch0069_spr/CH0069_spr.png",
+                "ch0069_spr/CH0069_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0070",
+            "m": [
+                "ch0070_spr/CH0070_spr.atlas",
+                "ch0070_spr/CH0070_spr.png",
+                "ch0070_spr/CH0070_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0071",
+            "m": [
+                "ch0071_spr/CH0071_spr.atlas",
+                "ch0071_spr/CH0071_spr.png",
+                "ch0071_spr/CH0071_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0079",
+            "m": [
+                "ch0079_spr/CH0079_spr.atlas",
+                "ch0079_spr/CH0079_spr.png",
+                "ch0079_spr/CH0079_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0081",
+            "m": [
+                "ch0081_home/CH0081_home 1.png",
+                "ch0081_home/CH0081_home.atlas",
+                "ch0081_home/CH0081_home.png",
+                "ch0081_home/CH0081_home.skel",
+                "ch0081_home/CH0081_home2.png"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0086",
+            "m": [
+                "ch0086_spr/CH0086_spr.atlas",
+                "ch0086_spr/CH0086_spr.png",
+                "ch0086_spr/CH0086_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0087",
+            "m": [
+                "ch0087_spr/CH0087_spr.atlas",
+                "ch0087_spr/CH0087_spr.png",
+                "ch0087_spr/CH0087_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0088",
+            "m": [
+                "ch0088_spr/CH0088_spr.atlas",
+                "ch0088_spr/CH0088_spr.png",
+                "ch0088_spr/CH0088_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0089",
+            "m": [
+                "ch0089_spr/CH0089_spr.atlas",
+                "ch0089_spr/CH0089_spr.png",
+                "ch0089_spr/CH0089_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0092",
+            "m": [
+                "ch0092_home/CH0092_home.atlas",
+                "ch0092_home/CH0092_home.png",
+                "ch0092_home/CH0092_home.skel",
+                "ch0092_home/CH0092_home2.png",
+                "ch0092_home/CH0092_home3.png",
+                "ch0092_spr/CH0092_spr.atlas",
+                "ch0092_spr/CH0092_spr.png",
+                "ch0092_spr/CH0092_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0098",
+            "m": [
+                "ch0098_home/CH0098_home.atlas",
+                "ch0098_home/CH0098_home.png",
+                "ch0098_home/CH0098_home.skel",
+                "ch0098_home/CH0098_home2.png",
+                "ch0098_spr/CH0098_spr.atlas",
+                "ch0098_spr/CH0098_spr.png",
+                "ch0098_spr/CH0098_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0099",
+            "m": [
+                "ch0099_spr/CH0099_spr.atlas",
+                "ch0099_spr/CH0099_spr.png",
+                "ch0099_spr/CH0099_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0100",
+            "m": [
+                "ch0100_home/CH0100_home.atlas",
+                "ch0100_home/CH0100_home.png",
+                "ch0100_home/CH0100_home.skel",
+                "ch0100_home/CH0100_home2.png",
+                "ch0100_spr/CH0100_spr.atlas",
+                "ch0100_spr/CH0100_spr.png",
+                "ch0100_spr/CH0100_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0101",
+            "m": [
+                "ch0101_home/CH0101_home.atlas",
+                "ch0101_home/CH0101_home.png",
+                "ch0101_home/CH0101_home.skel",
+                "ch0101_home/CH0101_home2.png",
+                "ch0101_spr/CH0101_spr.atlas",
+                "ch0101_spr/CH0101_spr.png",
+                "ch0101_spr/CH0101_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0107",
+            "m": [
+                "ch0107_spr/CH0107_spr.atlas",
+                "ch0107_spr/CH0107_spr.png",
+                "ch0107_spr/CH0107_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0109",
+            "m": [
+                "ch0109_spr/CH0109_spr.atlas",
+                "ch0109_spr/CH0109_spr.png",
+                "ch0109_spr/CH0109_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0110",
+            "m": [
+                "ch0110_spr/CH0110_spr.atlas",
+                "ch0110_spr/CH0110_spr.png",
+                "ch0110_spr/CH0110_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0113",
+            "m": [
+                "ch0113_home/CH0113_home.atlas",
+                "ch0113_home/CH0113_home.png",
+                "ch0113_home/CH0113_home.skel",
+                "ch0113_home/CH0113_home2.png",
+                "ch0113_home/CH0113_home3.png",
+                "ch0113_spr/CH0113_spr.atlas",
+                "ch0113_spr/CH0113_spr.png",
+                "ch0113_spr/CH0113_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0114",
+            "m": [
+                "ch0114_home/CH0114_home.atlas",
+                "ch0114_home/CH0114_home.png",
+                "ch0114_home/CH0114_home.skel",
+                "ch0114_home/CH0114_home2.png",
+                "ch0114_spr/CH0114_spr.atlas",
+                "ch0114_spr/CH0114_spr.png",
+                "ch0114_spr/CH0114_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0123",
+            "m": [
+                "ch0123_spr/CH0123_spr.atlas",
+                "ch0123_spr/CH0123_spr.png",
+                "ch0123_spr/CH0123_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0124",
+            "m": [
+                "ch0124_spr/CH0124_spr.atlas",
+                "ch0124_spr/CH0124_spr.png",
+                "ch0124_spr/CH0124_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0125",
+            "m": [
+                "ch0125_spr/CH0125_spr.atlas",
+                "ch0125_spr/CH0125_spr.png",
+                "ch0125_spr/CH0125_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0135",
+            "m": [
+                "ch0135_spr/CH0135_spr.atlas",
+                "ch0135_spr/CH0135_spr.png",
+                "ch0135_spr/CH0135_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0137",
+            "m": [
+                "ch0137_home/CH0137_home.atlas",
+                "ch0137_home/CH0137_home.png",
+                "ch0137_home/CH0137_home.skel",
+                "ch0137_home/CH0137_home2.png",
+                "ch0137_spr/CH0137_spr.atlas",
+                "ch0137_spr/CH0137_spr.png",
+                "ch0137_spr/CH0137_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0141",
+            "m": [
+                "ch0141_home/CH0141_home.atlas",
+                "ch0141_home/CH0141_home.png",
+                "ch0141_home/CH0141_home.skel",
+                "ch0141_home/CH0141_home2.png",
+                "ch0141_spr/CH0141_spr.atlas",
+                "ch0141_spr/CH0141_spr.png",
+                "ch0141_spr/CH0141_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0144",
+            "m": [
+                "ch0144_home/CH0144_home.atlas",
+                "ch0144_home/CH0144_home.png",
+                "ch0144_home/CH0144_home.skel",
+                "ch0144_home/CH0144_home2.png",
+                "ch0144_home/FX_TEX_CH0144_Lobby_Flowmap_03a.png",
+                "ch0144_home/FX_TEX__CH0144_Lobby_Smoke_01.png",
+                "ch0144_spr/CH0144_spr.atlas",
+                "ch0144_spr/CH0144_spr.png",
+                "ch0144_spr/CH0144_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0145",
+            "m": [
+                "ch0145_home/CH0145_home.atlas",
+                "ch0145_home/CH0145_home.png",
+                "ch0145_home/CH0145_home.skel",
+                "ch0145_home/CH0145_home2.png",
+                "ch0145_spr/CH0145_spr.atlas",
+                "ch0145_spr/CH0145_spr.png",
+                "ch0145_spr/CH0145_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0152",
+            "m": [
+                "ch0152_spr/CH0152_spr.atlas",
+                "ch0152_spr/CH0152_spr.png",
+                "ch0152_spr/CH0152_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0155",
+            "m": [
+                "ch0155_home/CH0155_home.atlas",
+                "ch0155_home/CH0155_home.png",
+                "ch0155_home/CH0155_home.skel",
+                "ch0155_home/CH0155_home2.png",
+                "ch0155_spr/CH0155_spr.atlas",
+                "ch0155_spr/CH0155_spr.png",
+                "ch0155_spr/CH0155_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0156",
+            "m": [
+                "ch0156_home/CH0156_home.atlas",
+                "ch0156_home/CH0156_home.png",
+                "ch0156_home/CH0156_home.skel",
+                "ch0156_home/CH0156_home2.png",
+                "ch0156_spr/CH0156_home.skel",
+                "ch0156_spr/CH0156_spr.atlas",
+                "ch0156_spr/CH0156_spr.png",
+                "ch0156_spr/CH0156_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0159",
+            "m": [
+                "ch0159_spr/CH0159_spr.atlas",
+                "ch0159_spr/CH0159_spr.png",
+                "ch0159_spr/CH0159_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0160",
+            "m": [
+                "ch0160_home/CH0160_home.atlas",
+                "ch0160_home/CH0160_home.png",
+                "ch0160_home/CH0160_home.skel",
+                "ch0160_home/CH0160_home2.png",
+                "ch0160_spr/CH0160_spr.atlas",
+                "ch0160_spr/CH0160_spr.png",
+                "ch0160_spr/CH0160_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0162",
+            "m": [
+                "ch0162_spr/CH0162_spr.atlas",
+                "ch0162_spr/CH0162_spr.png",
+                "ch0162_spr/CH0162_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0163",
+            "m": [
+                "ch0163_home/CH0163_home.atlas",
+                "ch0163_home/CH0163_home.png",
+                "ch0163_home/CH0163_home.skel",
+                "ch0163_home/CH0163_home2.png",
+                "ch0163_spr/CH0163_spr.atlas",
+                "ch0163_spr/CH0163_spr.png",
+                "ch0163_spr/CH0163_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0164",
+            "m": [
+                "ch0164_home/CH0164_home.atlas",
+                "ch0164_home/CH0164_home.png",
+                "ch0164_home/CH0164_home.skel",
+                "ch0164_home/CH0164_home2.png",
+                "ch0164_spr/CH0164_spr.atlas",
+                "ch0164_spr/CH0164_spr.png",
+                "ch0164_spr/CH0164_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0165",
+            "m": [
+                "ch0165_home/CH0165_home.atlas",
+                "ch0165_home/CH0165_home.png",
+                "ch0165_home/CH0165_home.skel",
+                "ch0165_home/CH0165_home2.png",
+                "ch0165_spr/CH0165_spr.atlas",
+                "ch0165_spr/CH0165_spr.png",
+                "ch0165_spr/CH0165_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0166",
+            "m": [
+                "ch0166_spr/CH0166_spr.atlas",
+                "ch0166_spr/CH0166_spr.png",
+                "ch0166_spr/CH0166_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0167",
+            "m": [
+                "ch0167_spr/CH0167_spr.atlas",
+                "ch0167_spr/CH0167_spr.png",
+                "ch0167_spr/CH0167_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0169",
+            "m": [
+                "ch0169_home/CH0169_home.atlas",
+                "ch0169_home/CH0169_home.png",
+                "ch0169_home/CH0169_home.skel",
+                "ch0169_home/CH0169_home2.png",
+                "ch0169_spr/CH0169_spr.atlas",
+                "ch0169_spr/CH0169_spr.png",
+                "ch0169_spr/CH0169_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0170",
+            "m": [
+                "ch0170_spr/CH0170_spr.atlas",
+                "ch0170_spr/CH0170_spr.png",
+                "ch0170_spr/CH0170_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0171",
+            "m": [
+                "ch0171_spr/CH0171_spr.atlas",
+                "ch0171_spr/CH0171_spr.png",
+                "ch0171_spr/CH0171_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0172",
+            "m": [
+                "ch0172_spr/CH0172_spr.atlas",
+                "ch0172_spr/CH0172_spr.png",
+                "ch0172_spr/CH0172_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0175",
+            "m": [
+                "ch0175_home/CH0175_home.atlas",
+                "ch0175_home/CH0175_home.png",
+                "ch0175_home/CH0175_home.skel",
+                "ch0175_home/CH0175_home2.png",
+                "ch0175_spr/CH0175_spr.atlas",
+                "ch0175_spr/CH0175_spr.png",
+                "ch0175_spr/CH0175_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0176",
+            "m": [
+                "ch0176_home/CH0176_home.atlas",
+                "ch0176_home/CH0176_home.png",
+                "ch0176_home/CH0176_home.skel",
+                "ch0176_home/CH0176_home2.png",
+                "ch0176_spr/CH0176_spr.atlas",
+                "ch0176_spr/CH0176_spr.png",
+                "ch0176_spr/CH0176_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0178",
+            "m": [
+                "ch0178_home/CH0178_home.atlas",
+                "ch0178_home/CH0178_home.png",
+                "ch0178_home/CH0178_home.skel",
+                "ch0178_home/CH0178_home2.png",
+                "ch0178_home/CH0178_home3.png",
+                "ch0178_spr/CH0178_spr.atlas",
+                "ch0178_spr/CH0178_spr.png",
+                "ch0178_spr/CH0178_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0179",
+            "m": [
+                "ch0179_home/CH0179_home.atlas",
+                "ch0179_home/CH0179_home.png",
+                "ch0179_home/CH0179_home.skel",
+                "ch0179_home/CH0179_home2.png",
+                "ch0179_home/CH0179_home3.png",
+                "ch0179_spr/CH0179_spr.atlas",
+                "ch0179_spr/CH0179_spr.png",
+                "ch0179_spr/CH0179_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0180",
+            "m": [
+                "ch0180_home/CH0180_home.atlas",
+                "ch0180_home/CH0180_home.png",
+                "ch0180_home/CH0180_home.skel",
+                "ch0180_home/CH0180_home2.png",
+                "ch0180_spr/CH0180_spr.atlas",
+                "ch0180_spr/CH0180_spr.png",
+                "ch0180_spr/CH0180_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0183",
+            "m": [
+                "ch0183_spr/CH0183_spr.atlas",
+                "ch0183_spr/CH0183_spr.png",
+                "ch0183_spr/CH0183_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0188",
+            "m": [
+                "ch0188_spr/CH0188_spr.atlas",
+                "ch0188_spr/CH0188_spr.png",
+                "ch0188_spr/CH0188_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ch0189",
+            "m": [
+                "ch0189_spr/CH0189_spr.atlas",
+                "ch0189_spr/CH0189_spr.png",
+                "ch0189_spr/CH0189_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "cherino",
+            "m": [
+                "cherino_home/Cherino_home.atlas",
+                "cherino_home/Cherino_home.png",
+                "cherino_home/Cherino_home.skel",
+                "cherino_home/Cherino_home2.png",
+                "cherino_spr/cherino_spr.atlas",
+                "cherino_spr/cherino_spr.png",
+                "cherino_spr/cherino_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "chinatsu",
+            "m": [
+                "chinatsu_home/Chinatsu_home.atlas",
+                "chinatsu_home/Chinatsu_home.png",
+                "chinatsu_home/Chinatsu_home.skel",
+                "chinatsu_home/Chinatsu_home2.png",
+                "chinatsu_spr/chinatsu_spr.atlas",
+                "chinatsu_spr/chinatsu_spr.png",
+                "chinatsu_spr/chinatsu_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "chise",
+            "m": [
+                "chise_home/Chise_home.atlas",
+                "chise_home/Chise_home.png",
+                "chise_home/Chise_home.skel",
+                "chise_home/Chise_home2.png",
+                "chise_spr/chise_spr.atlas",
+                "chise_spr/chise_spr.png",
+                "chise_spr/chise_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "eimi",
+            "m": [
+                "eimi_home/Eimi_home.atlas",
+                "eimi_home/Eimi_home.png",
+                "eimi_home/Eimi_home.skel",
+                "eimi_home/Eimi_home2.png",
+                "eimi_spr/eimi_spr.atlas",
+                "eimi_spr/eimi_spr.png",
+                "eimi_spr/eimi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "fuuka",
+            "m": [
+                "fuuka_home/Fuuka_home.atlas",
+                "fuuka_home/Fuuka_home.png",
+                "fuuka_home/Fuuka_home.skel",
+                "fuuka_home/Fuuka_home2.png",
+                "fuuka_home/Fuuka_Scene.atlas",
+                "fuuka_home/Fuuka_Scene.png",
+                "fuuka_home/Fuuka_Scene.skel",
+                "fuuka_spr/fuuka_spr.atlas",
+                "fuuka_spr/fuuka_spr.png",
+                "fuuka_spr/fuuka_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "fuuki",
+            "m": [
+                "fuuki_normal_spr/fuuki_normal1_spr.atlas",
+                "fuuki_normal_spr/fuuki_normal1_spr.png",
+                "fuuki_normal_spr/fuuki_normal1_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hanae",
+            "m": [
+                "hanae_home/Hanae_home.atlas",
+                "hanae_home/Hanae_home.png",
+                "hanae_home/Hanae_home.skel",
+                "hanae_home/Hanae_home2.png",
+                "hanae_spr/hanae_spr.atlas",
+                "hanae_spr/hanae_spr.png",
+                "hanae_spr/hanae_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hanako",
+            "m": [
+                "hanako_home/Hanako_home.atlas",
+                "hanako_home/Hanako_home.png",
+                "hanako_home/Hanako_home.skel",
+                "hanako_home/Hanako_home2.png",
+                "hanako_spr/hanako_spr.atlas",
+                "hanako_spr/hanako_spr.png",
+                "hanako_spr/hanako_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hare",
+            "m": [
+                "hare_home/Hanako_home.skel",
+                "hare_home/Hare_home.atlas",
+                "hare_home/Hare_home.png",
+                "hare_home/Hare_home.skel",
+                "hare_home/Hare_home2.png",
+                "hare_spr/hare_spr.atlas",
+                "hare_spr/hare_spr.png",
+                "hare_spr/hare_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "haruka",
+            "m": [
+                "haruka_home/Haruka_home.atlas",
+                "haruka_home/Haruka_home.png",
+                "haruka_home/Haruka_home.skel",
+                "haruka_home/Haruka_home2.png",
+                "haruka_spr/haruka_spr.atlas",
+                "haruka_spr/haruka_spr.png",
+                "haruka_spr/haruka_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "haruna",
+            "m": [
+                "haruna_home/Haruna_home.atlas",
+                "haruna_home/Haruna_home.png",
+                "haruna_home/Haruna_home.skel",
+                "haruna_home/Haruna_home2.png",
+                "haruna_spr/haruna_spr.atlas",
+                "haruna_spr/haruna_spr.png",
+                "haruna_spr/haruna_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hasumi",
+            "m": [
+                "hasumi_home/Hasumi_home.atlas",
+                "hasumi_home/Hasumi_home.png",
+                "hasumi_home/Hasumi_home.skel",
+                "hasumi_home/Hasumi_home2.png",
+                "hasumi_spr/hasumi_spr.atlas",
+                "hasumi_spr/hasumi_spr.png",
+                "hasumi_spr/hasumi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hibiki",
+            "m": [
+                "hibiki_home/Hibiki_home.atlas",
+                "hibiki_home/Hibiki_home.png",
+                "hibiki_home/Hibiki_home.skel",
+                "hibiki_home/Hibiki_home2.png",
+                "hibiki_spr/hibiki_spr.atlas",
+                "hibiki_spr/hibiki_spr.png",
+                "hibiki_spr/hibiki_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hihumi",
+            "m": [
+                "hihumi_home/Hihumi_home.atlas",
+                "hihumi_home/Hihumi_home.png",
+                "hihumi_home/Hihumi_home.skel",
+                "hihumi_home/Hihumi_home2.png",
+                "hihumi_robber_spr/hihumi_robber_spr.atlas",
+                "hihumi_robber_spr/hihumi_robber_spr.png",
+                "hihumi_robber_spr/hihumi_robber_spr.skel",
+                "hihumi_spr/hihumi_spr.atlas",
+                "hihumi_spr/hihumi_spr.png",
+                "hihumi_spr/hihumi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hinata",
+            "m": [
+                "hinata_home/Hinata_home.atlas",
+                "hinata_home/Hinata_home.png",
+                "hinata_home/Hinata_home.skel",
+                "hinata_home/Hinata_home2.png",
+                "hinata_spr/hinata_spr.atlas",
+                "hinata_spr/hinata_spr.png",
+                "hinata_spr/hinata_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hina",
+            "m": [
+                "hina_home/Hina_home.atlas",
+                "hina_home/Hina_home.png",
+                "hina_home/Hina_home.skel",
+                "hina_home/Hina_home2.png",
+                "hina_home/Hina_home3.png",
+                "hina_spr/hina_spr.atlas",
+                "hina_spr/hina_spr.png",
+                "hina_spr/hina_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hiyori",
+            "m": [
+                "hiyori_home/Hiyori_home.atlas",
+                "hiyori_home/Hiyori_home.png",
+                "hiyori_home/Hiyori_home.skel",
+                "hiyori_home/Hiyori_home2.png",
+                "hiyori_spr/hiyori_spr.atlas",
+                "hiyori_spr/hiyori_spr.png",
+                "hiyori_spr/hiyori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "hoshino",
+            "m": [
+                "hoshino_home/Hoshino_home.atlas",
+                "hoshino_home/Hoshino_home.png",
+                "hoshino_home/Hoshino_home.skel",
+                "hoshino_home/Hoshino_home_background.atlas",
+                "hoshino_home/Hoshino_home_background.png",
+                "hoshino_home/Hoshino_home_background.skel",
+                "hoshino_home/Hoshino_home_background2.png",
+                "hoshino_robber_spr/hoshino_robber_spr.atlas",
+                "hoshino_robber_spr/hoshino_robber_spr.png",
+                "hoshino_robber_spr/hoshino_robber_spr.skel",
+                "hoshino_spr/hoshino_spr.atlas",
+                "hoshino_spr/hoshino_spr.png",
+                "hoshino_spr/hoshino_spr.skel",
+                "hoshino_swimsuit_home/Hoshino_swimsuit_home.atlas",
+                "hoshino_swimsuit_home/Hoshino_swimsuit_home.png",
+                "hoshino_swimsuit_home/Hoshino_swimsuit_home.skel",
+                "hoshino_swimsuit_home/Hoshino_swimsuit_home2.png",
+                "hoshino_swimsuit_home/Hoshino_swimsuit_home3.png",
+                "hoshino_swimsuit_spr/hoshino_swimsuit_spr.atlas",
+                "hoshino_swimsuit_spr/hoshino_swimsuit_spr.png",
+                "hoshino_swimsuit_spr/hoshino_swimsuit_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "ibuki",
+            "m": [
+                "ibuki_spr/ibuki_spr.atlas",
+                "ibuki_spr/ibuki_spr.png",
+                "ibuki_spr/ibuki_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "iori",
+            "m": [
+                "iori_home/Iori_home.atlas",
+                "iori_home/Iori_home.png",
+                "iori_home/Iori_home.skel",
+                "iori_home/Iori_home2.png",
+                "iori_spr/iori_spr.atlas",
+                "iori_spr/iori_spr.png",
+                "iori_spr/iori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "izumi",
+            "m": [
+                "izumi_home/Izumi_home.atlas",
+                "izumi_home/Izumi_home.png",
+                "izumi_home/Izumi_home.skel",
+                "izumi_home/Izumi_home2.png",
+                "izumi_spr/izumi_spr.atlas",
+                "izumi_spr/izumi_spr.png",
+                "izumi_spr/izumi_spr.skel",
+                "izumi_swimsuit_home/Izumi_swimsuit_home.atlas",
+                "izumi_swimsuit_home/Izumi_swimsuit_home.png",
+                "izumi_swimsuit_home/Izumi_swimsuit_home.skel",
+                "izumi_swimsuit_home/Izumi_swimsuit_home2.png",
+                "izumi_swimsuit_home_teen/Izumi_swimsuit_home_Teen.atlas",
+                "izumi_swimsuit_home_teen/Izumi_swimsuit_home_Teen.png",
+                "izumi_swimsuit_home_teen/Izumi_swimsuit_home_Teen.skel",
+                "izumi_swimsuit_home_teen/Izumi_swimsuit_home_Teen2.png",
+                "izumi_swimsuit_spr/izumi_swimsuit_spr.atlas",
+                "izumi_swimsuit_spr/izumi_swimsuit_spr.png",
+                "izumi_swimsuit_spr/izumi_swimsuit_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "izuna",
+            "m": [
+                "izuna_home/Izuna_home.atlas",
+                "izuna_home/Izuna_home.png",
+                "izuna_home/Izuna_home.skel",
+                "izuna_home/Izuna_home2.png",
+                "izuna_spr/izuna_spr.atlas",
+                "izuna_spr/izuna_spr.png",
+                "izuna_spr/izuna_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "juri",
+            "m": [
+                "juri_spr/juri_spr.atlas",
+                "juri_spr/juri_spr.png",
+                "juri_spr/juri_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "justice",
+            "m": [
+                "justice_normal_spr/Justice_normal1_spr.atlas",
+                "justice_normal_spr/Justice_normal1_spr.png",
+                "justice_normal_spr/Justice_normal1_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "kaede",
+            "m": [
+                "kaede_home/Kaede_home.atlas",
+                "kaede_home/Kaede_home.png",
+                "kaede_home/Kaede_home.skel",
+                "kaede_home/Kaede_home2.png",
+                "kaede_spr/kaede_spr.atlas",
+                "kaede_spr/kaede_spr.png",
+                "kaede_spr/kaede_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "karin",
+            "m": [
+                "karin_home/Karin_home.atlas",
+                "karin_home/Karin_home.png",
+                "karin_home/Karin_home.skel",
+                "karin_spr/karin_spr.atlas",
+                "karin_spr/karin_spr.png",
+                "karin_spr/karin_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "kayoko",
+            "m": [
+                "kayoko_home/Kayoko_home.atlas",
+                "kayoko_home/Kayoko_home.png",
+                "kayoko_home/Kayoko_home.skel",
+                "kayoko_home/Kayoko_home2.png",
+                "kayoko_spr/kayoko_spr.atlas",
+                "kayoko_spr/kayoko_spr.png",
+                "kayoko_spr/kayoko_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "kazusa",
+            "m": [
+                "kazusa_home/kazusa_home.atlas",
+                "kazusa_home/kazusa_home.png",
+                "kazusa_home/kazusa_home.skel",
+                "kazusa_home/kazusa_home2.png",
+                "kazusa_spr/kazusa_spr.atlas",
+                "kazusa_spr/kazusa_spr.png",
+                "kazusa_spr/kazusa_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "kirino",
+            "m": [
+                "kirino_home/kirino_home.atlas",
+                "kirino_home/kirino_home.png",
+                "kirino_home/kirino_home.skel",
+                "kirino_home/kirino_home2.png",
+                "kirino_spr/kirino_spr.atlas",
+                "kirino_spr/kirino_spr.png",
+                "kirino_spr/kirino_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "koharu",
+            "m": [
+                "koharu_home/Koharu_home.atlas",
+                "koharu_home/Koharu_home.png",
+                "koharu_home/Koharu_home.skel",
+                "koharu_home/Koharu_home2.png",
+                "koharu_spr/koharu_spr.atlas",
+                "koharu_spr/koharu_spr.png",
+                "koharu_spr/koharu_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "kotama",
+            "m": [
+                "kotama_spr/kotama_spr.atlas",
+                "kotama_spr/kotama_spr.png",
+                "kotama_spr/kotama_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "kotori",
+            "m": [
+                "kotori_home/Kotori_home.atlas",
+                "kotori_home/Kotori_home.png",
+                "kotori_home/Kotori_home.skel",
+                "kotori_home/Kotori_home2.png",
+                "kotori_spr/kotori_spr.atlas",
+                "kotori_spr/kotori_spr.png",
+                "kotori_spr/kotori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "mai",
+            "m": [
+                "mai_spr/mai_spr.atlas",
+                "mai_spr/mai_spr.png",
+                "mai_spr/mai_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "maki",
+            "m": [
+                "maki_home/Maki_home.atlas",
+                "maki_home/Maki_home.png",
+                "maki_home/Maki_home.skel",
+                "maki_home/Maki_home2.png",
+                "maki_spr/maki_spr.atlas",
+                "maki_spr/maki_spr.png",
+                "maki_spr/maki_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "marina",
+            "m": [
+                "marina_home/Marina_home.atlas",
+                "marina_home/Marina_home.png",
+                "marina_home/Marina_home.skel",
+                "marina_home/Marina_home2.png",
+                "marina_spr/marina_spr.atlas",
+                "marina_spr/marina_spr.png",
+                "marina_spr/marina_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "mari",
+            "m": [
+                "mari_home/mari_home.atlas",
+                "mari_home/mari_home.png",
+                "mari_home/mari_home.skel",
+                "mari_home/mari_home2.png",
+                "mari_spr/mari_spr.atlas",
+                "mari_spr/mari_spr.png",
+                "mari_spr/mari_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "mashiro",
+            "m": [
+                "mashiro_home/Mashiro_home.atlas",
+                "mashiro_home/Mashiro_home.png",
+                "mashiro_home/Mashiro_home.skel",
+                "mashiro_home/Mashiro_home2.png",
+                "mashiro_spr/mashiro_spr.atlas",
+                "mashiro_spr/mashiro_spr.png",
+                "mashiro_spr/mashiro_spr.skel",
+                "mashiro_swimsuit_home/Mashiro_swimsuit_home.atlas",
+                "mashiro_swimsuit_home/Mashiro_swimsuit_home.png",
+                "mashiro_swimsuit_home/Mashiro_swimsuit_home.skel",
+                "mashiro_swimsuit_home/Mashiro_swimsuit_home2.png",
+                "mashiro_swimsuit_spr/mashiro_swimsuit_spr.atlas",
+                "mashiro_swimsuit_spr/mashiro_swimsuit_spr.png",
+                "mashiro_swimsuit_spr/mashiro_swimsuit_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "midori",
+            "m": [
+                "midori_home/Midori_home.atlas",
+                "midori_home/Midori_home.png",
+                "midori_home/Midori_home.skel",
+                "midori_home/Midori_home2.png",
+                "midori_spr/midori_spr.atlas",
+                "midori_spr/midori_spr.png",
+                "midori_spr/midori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "mimori",
+            "m": [
+                "mimori_home/Mimori_home.atlas",
+                "mimori_home/Mimori_home.png",
+                "mimori_home/Mimori_home.skel",
+                "mimori_home/Mimori_home2.png",
+                "mimori_spr/mimori_spr.atlas",
+                "mimori_spr/mimori_spr.png",
+                "mimori_spr/mimori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "minori",
+            "m": [
+                "minori_spr/minori_spr.atlas",
+                "minori_spr/minori_spr.png",
+                "minori_spr/minori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "misaki",
+            "m": [
+                "misaki_home/Default-Particle.png",
+                "misaki_home/FX_TEX_Water_1.png",
+                "misaki_home/FX_TEX_Water_Trail_1.png",
+                "misaki_home/Misaki_home.atlas",
+                "misaki_home/Misaki_home.png",
+                "misaki_home/Misaki_home.skel",
+                "misaki_home/Misaki_home2.png",
+                "misaki_spr/misaki_spr.atlas",
+                "misaki_spr/misaki_spr.png",
+                "misaki_spr/misaki_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "miyako",
+            "m": [
+                "miyako_home/Miyako_home.atlas",
+                "miyako_home/Miyako_home.png",
+                "miyako_home/Miyako_home.skel",
+                "miyako_home/Miyako_home2.png",
+                "miyako_spr/miyako_spr.atlas",
+                "miyako_spr/miyako_spr.png",
+                "miyako_spr/miyako_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "moe",
+            "m": [
+                "moe_home/Moe_home.atlas",
+                "moe_home/Moe_home.png",
+                "moe_home/Moe_home.skel",
+                "moe_home/Moe_home2.png",
+                "moe_home/Moe_home3.png",
+                "moe_home/Moe_home4.png",
+                "moe_spr/moe_spr.atlas",
+                "moe_spr/moe_spr.png",
+                "moe_spr/moe_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "momiji",
+            "m": [
+                "momiji_spr/momiji_spr.atlas",
+                "momiji_spr/momiji_spr.png",
+                "momiji_spr/momiji_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "momoi",
+            "m": [
+                "momoi_home/Momoi_home.atlas",
+                "momoi_home/Momoi_home.png",
+                "momoi_home/Momoi_home.skel",
+                "momoi_home/Momoi_home2.png",
+                "momoi_home/Momoi_Scene.atlas",
+                "momoi_home/Momoi_Scene.png",
+                "momoi_home/Momoi_Scene.skel",
+                "momoi_spr/momoi_spr.atlas",
+                "momoi_spr/momoi_spr.png",
+                "momoi_spr/momoi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "momoka",
+            "m": [
+                "momoka_spr/momoka_spr.atlas",
+                "momoka_spr/momoka_spr.png",
+                "momoka_spr/momoka_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "mutsuki",
+            "m": [
+                "mutsuki_home/Mutsuki_home.atlas",
+                "mutsuki_home/Mutsuki_home.png",
+                "mutsuki_home/Mutsuki_home.skel",
+                "mutsuki_home/Mutsuki_home2.png",
+                "mutsuki_newyear_home/mutsuki_newyear_home.atlas",
+                "mutsuki_newyear_home/mutsuki_newyear_home.png",
+                "mutsuki_newyear_home/mutsuki_newyear_home.skel",
+                "mutsuki_newyear_home/mutsuki_newyear_home2.png",
+                "mutsuki_newyear_spr/mutsuki_newyear_spr.atlas",
+                "mutsuki_newyear_spr/mutsuki_newyear_spr.png",
+                "mutsuki_newyear_spr/mutsuki_newyear_spr.skel",
+                "mutsuki_spr/mutsuki_spr.atlas",
+                "mutsuki_spr/mutsuki_spr.png",
+                "mutsuki_spr/mutsuki_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "nagisa",
+            "m": [
+                "nagisa_spr/nagisa_spr.atlas",
+                "nagisa_spr/nagisa_spr.png",
+                "nagisa_spr/nagisa_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "neru",
+            "m": [
+                "neru_home/Neru_home.atlas",
+                "neru_home/Neru_home.png",
+                "neru_home/Neru_home.skel",
+                "neru_home/Neru_home2.png",
+                "neru_home/Neru_home3.png",
+                "neru_spr/neru_spr.atlas",
+                "neru_spr/neru_spr.png",
+                "neru_spr/neru_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "nodoka",
+            "m": [
+                "nodoka_home/Nodoka_home.atlas",
+                "nodoka_home/Nodoka_home.png",
+                "nodoka_home/Nodoka_home.skel",
+                "nodoka_home/Nodoka_home2.png",
+                "nodoka_spr/nodoka_spr.atlas",
+                "nodoka_spr/nodoka_spr.png",
+                "nodoka_spr/nodoka_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "nonomi",
+            "m": [
+                "nonomi_home/Nonomi_home.atlas",
+                "nonomi_home/Nonomi_home.png",
+                "nonomi_home/Nonomi_home.skel",
+                "nonomi_home/Nonomi_home2.png",
+                "nonomi_robber_spr/nonomi_robber_spr.atlas",
+                "nonomi_robber_spr/nonomi_robber_spr.png",
+                "nonomi_robber_spr/nonomi_robber_spr.skel",
+                "nonomi_spr/nonomi_spr.atlas",
+                "nonomi_spr/nonomi_spr.png",
+                "nonomi_spr/nonomi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0001",
+            "m": [
+                "np0001_spr/NP0001_spr.atlas",
+                "np0001_spr/NP0001_spr.png",
+                "np0001_spr/NP0001_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0002",
+            "m": [
+                "np0002_spr/NP0002_spr.atlas",
+                "np0002_spr/NP0002_spr.png",
+                "np0002_spr/NP0002_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0003",
+            "m": [
+                "np0003_spr/NP0003_spr.atlas",
+                "np0003_spr/NP0003_spr.png",
+                "np0003_spr/NP0003_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0004",
+            "m": [
+                "np0004_spr/NP0004_spr.atlas",
+                "np0004_spr/NP0004_spr.png",
+                "np0004_spr/NP0004_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0005",
+            "m": [
+                "np0005_spr/NP0005_spr.atlas",
+                "np0005_spr/NP0005_spr.png",
+                "np0005_spr/NP0005_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0006",
+            "m": [
+                "np0006_spr/NP0006_spr.atlas",
+                "np0006_spr/NP0006_spr.png",
+                "np0006_spr/NP0006_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0007",
+            "m": [
+                "np0007_spr/NP0007_spr.atlas",
+                "np0007_spr/NP0007_spr.png",
+                "np0007_spr/NP0007_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0008",
+            "m": [
+                "np0008_spr/NP0008_spr.atlas",
+                "np0008_spr/NP0008_spr.png",
+                "np0008_spr/NP0008_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0009",
+            "m": [
+                "np0009_spr/NP0009_spr.atlas",
+                "np0009_spr/NP0009_spr.png",
+                "np0009_spr/NP0009_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0010",
+            "m": [
+                "np0010_spr/NP0010_spr.atlas",
+                "np0010_spr/NP0010_spr.png",
+                "np0010_spr/NP0010_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0011",
+            "m": [
+                "np0011_spr/NP0011_spr.atlas",
+                "np0011_spr/NP0011_spr.png",
+                "np0011_spr/NP0011_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0012",
+            "m": [
+                "np0012_spr/NP0012_spr.atlas",
+                "np0012_spr/NP0012_spr.png",
+                "np0012_spr/NP0012_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0013",
+            "m": [
+                "np0013_spr/NP0013_spr.atlas",
+                "np0013_spr/NP0013_spr.png",
+                "np0013_spr/NP0013_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0014",
+            "m": [
+                "np0014_spr/NP0014_spr.atlas",
+                "np0014_spr/NP0014_spr.png",
+                "np0014_spr/NP0014_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0015",
+            "m": [
+                "np0015_spr/NP0015_spr.atlas",
+                "np0015_spr/NP0015_spr.png",
+                "np0015_spr/NP0015_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0017",
+            "m": [
+                "np0017_spr/NP0017_spr.atlas",
+                "np0017_spr/NP0017_spr.png",
+                "np0017_spr/NP0017_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0018",
+            "m": [
+                "np0018_spr/NP0018_spr.atlas",
+                "np0018_spr/NP0018_spr.png",
+                "np0018_spr/NP0018_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0019",
+            "m": [
+                "np0019_spr/NP0019_spr.atlas",
+                "np0019_spr/NP0019_spr.png",
+                "np0019_spr/NP0019_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0020",
+            "m": [
+                "np0020_spr/NP0020_spr.atlas",
+                "np0020_spr/NP0020_spr.png",
+                "np0020_spr/NP0020_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0021",
+            "m": [
+                "np0021_spr/NP0021_spr.atlas",
+                "np0021_spr/NP0021_spr.png",
+                "np0021_spr/NP0021_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0022",
+            "m": [
+                "np0022_spr/NP0022_spr.atlas",
+                "np0022_spr/NP0022_spr.png",
+                "np0022_spr/NP0022_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0023",
+            "m": [
+                "np0023_spr/NP0023_spr.atlas",
+                "np0023_spr/NP0023_spr.png",
+                "np0023_spr/NP0023_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0024",
+            "m": [
+                "np0024_spr/NP0024_spr.atlas",
+                "np0024_spr/NP0024_spr.png",
+                "np0024_spr/NP0024_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0025",
+            "m": [
+                "np0025_spr/NP0025_spr.atlas",
+                "np0025_spr/NP0025_spr.png",
+                "np0025_spr/NP0025_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0026",
+            "m": [
+                "np0026_spr/NP0026_spr.atlas",
+                "np0026_spr/NP0026_spr.png",
+                "np0026_spr/NP0026_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0027",
+            "m": [
+                "np0027_spr/NP0027_spr.atlas",
+                "np0027_spr/NP0027_spr.png",
+                "np0027_spr/NP0027_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0028",
+            "m": [
+                "np0028_spr/NP0028_spr.atlas",
+                "np0028_spr/NP0028_spr.png",
+                "np0028_spr/NP0028_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0029",
+            "m": [
+                "np0029_spr/NP0029_spr.atlas",
+                "np0029_spr/NP0029_spr.png",
+                "np0029_spr/NP0029_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0031",
+            "m": [
+                "np0031_spr/NP0031_spr.atlas",
+                "np0031_spr/NP0031_spr.png",
+                "np0031_spr/NP0031_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0034",
+            "m": [
+                "np0034_spr/NP0034_spr.atlas",
+                "np0034_spr/NP0034_spr.png",
+                "np0034_spr/NP0034_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0038",
+            "m": [
+                "np0038_spr/NP0038_spr.atlas",
+                "np0038_spr/NP0038_spr.png",
+                "np0038_spr/NP0038_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0041",
+            "m": [
+                "np0041_spr/NP0041_spr.atlas",
+                "np0041_spr/NP0041_spr.png",
+                "np0041_spr/NP0041_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0063",
+            "m": [
+                "np0063_spr/NP0063_spr.atlas",
+                "np0063_spr/NP0063_spr.png",
+                "np0063_spr/NP0063_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0064",
+            "m": [
+                "np0064_spr/NP0064_spr.atlas",
+                "np0064_spr/NP0064_spr.png",
+                "np0064_spr/NP0064_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0065",
+            "m": [
+                "np0065_spr/NP0065_spr.atlas",
+                "np0065_spr/NP0065_spr.png",
+                "np0065_spr/NP0065_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0066",
+            "m": [
+                "np0066_spr/NP0066_spr.atlas",
+                "np0066_spr/NP0066_spr.png",
+                "np0066_spr/NP0066_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0067",
+            "m": [
+                "np0067_spr/NP0067_spr.atlas",
+                "np0067_spr/NP0067_spr.png",
+                "np0067_spr/NP0067_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0074",
+            "m": [
+                "np0074_spr/NP0074_spr.atlas",
+                "np0074_spr/NP0074_spr.png",
+                "np0074_spr/NP0074_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "np0077",
+            "m": [
+                "np0077_spr/NP0077_spr.atlas",
+                "np0077_spr/NP0077_spr.png",
+                "np0077_spr/NP0077_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "pina",
+            "m": [
+                "pina_home/Pina_home.atlas",
+                "pina_home/Pina_home.png",
+                "pina_home/Pina_home.skel",
+                "pina_home/Pina_home2.png",
+                "pina_spr/pina_spr.atlas",
+                "pina_spr/pina_spr.png",
+                "pina_spr/pina_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "police",
+            "m": [
+                "police_valkyrie_sg_spr/Police_Valkyrie_SG_spr.atlas",
+                "police_valkyrie_sg_spr/Police_Valkyrie_SG_spr.png",
+                "police_valkyrie_sg_spr/Police_Valkyrie_SG_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "rin",
+            "m": [
+                "rin_spr/rin_spr.atlas",
+                "rin_spr/rin_spr.png",
+                "rin_spr/rin_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "sakurako",
+            "m": [
+                "sakurako_spr/sakurako_spr.atlas",
+                "sakurako_spr/sakurako_spr.png",
+                "sakurako_spr/sakurako_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "saori",
+            "m": [
+                "saori_home/Saori_home.atlas",
+                "saori_home/Saori_home.png",
+                "saori_home/Saori_home.skel",
+                "saori_home/Saori_home2.png",
+                "saori_spr/saori_spr.atlas",
+                "saori_spr/saori_spr.png",
+                "saori_spr/saori_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "saya",
+            "m": [
+                "saya_casual_home/Saya_casual_home.atlas",
+                "saya_casual_home/Saya_casual_home.png",
+                "saya_casual_home/Saya_casual_home.skel",
+                "saya_casual_home/Saya_casual_home2.png",
+                "saya_casual_spr/saya_casual_spr.atlas",
+                "saya_casual_spr/saya_casual_spr.png",
+                "saya_casual_spr/saya_casual_spr.skel",
+                "saya_home/Saya_home.atlas",
+                "saya_home/Saya_home.png",
+                "saya_home/Saya_home.skel",
+                "saya_home/Saya_home2.png",
+                "saya_spr/saya_spr.atlas",
+                "saya_spr/saya_spr.png",
+                "saya_spr/saya_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "schoolgirl",
+            "m": [
+                "schoolgirl_sukebanswim_smg_spr/schoolGirl01_SukebanSwim_SMG_spr.atlas",
+                "schoolgirl_sukebanswim_smg_spr/schoolGirl01_SukebanSwim_SMG_spr.png",
+                "schoolgirl_sukebanswim_smg_spr/schoolGirl01_SukebanSwim_SMG_spr.skel",
+                "schoolgirl_sukebanswim_mg_spr/schoolGirl02_SukebanSwim_MG_spr.atlas",
+                "schoolgirl_sukebanswim_mg_spr/schoolGirl02_SukebanSwim_MG_spr.png",
+                "schoolgirl_sukebanswim_mg_spr/schoolGirl02_SukebanSwim_MG_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "sena",
+            "m": [
+                "sena_spr/sena_spr.atlas",
+                "sena_spr/sena_spr.png",
+                "sena_spr/sena_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "serika",
+            "m": [
+                "serika_home/Serika_home.atlas",
+                "serika_home/Serika_home.png",
+                "serika_home/Serika_home.skel",
+                "serika_home/Serika_home2.png",
+                "serika_home/Serika_home3.png",
+                "serika_newyear_home/Serika_Newyear_home.atlas",
+                "serika_newyear_home/Serika_Newyear_home.png",
+                "serika_newyear_home/Serika_Newyear_home.skel",
+                "serika_newyear_home/Serika_Newyear_home2.png",
+                "serika_newyear_spr/serika_newyear_spr.atlas",
+                "serika_newyear_spr/serika_newyear_spr.png",
+                "serika_newyear_spr/serika_newyear_spr.skel",
+                "serika_robber_spr/serika_robber_spr.atlas",
+                "serika_robber_spr/serika_robber_spr.png",
+                "serika_robber_spr/serika_robber_spr.skel",
+                "serika_shibaseki_spr/serika_shibaseki_spr.atlas",
+                "serika_shibaseki_spr/serika_shibaseki_spr.png",
+                "serika_shibaseki_spr/serika_shibaseki_spr.skel",
+                "serika_spr/serika_spr.atlas",
+                "serika_spr/serika_spr.png",
+                "serika_spr/serika_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "serina",
+            "m": [
+                "serina_home/serina_home.atlas",
+                "serina_home/serina_home.png",
+                "serina_home/serina_home.skel",
+                "serina_home/serina_home2.png",
+                "serina_spr/serina_spr.atlas",
+                "serina_spr/serina_spr.png",
+                "serina_spr/serina_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "shigure",
+            "m": [
+                "shigure_spr/shigure_spr.atlas",
+                "shigure_spr/shigure_spr.png",
+                "shigure_spr/shigure_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "shimiko",
+            "m": [
+                "shimiko_home/Shimiko_home.atlas",
+                "shimiko_home/Shimiko_home.png",
+                "shimiko_home/Shimiko_home.skel",
+                "shimiko_home/Shimiko_home2.png",
+                "shimiko_home/Shimiko_home3.png",
+                "shimiko_spr/shimiko_spr.atlas",
+                "shimiko_spr/shimiko_spr.png",
+                "shimiko_spr/shimiko_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "shinon",
+            "m": [
+                "shinon_spr/shinon_spr.atlas",
+                "shinon_spr/shinon_spr.png",
+                "shinon_spr/shinon_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "shiroko",
+            "m": [
+                "shiroko_home/Shiroko_home.atlas",
+                "shiroko_home/Shiroko_home.png",
+                "shiroko_home/Shiroko_home.skel",
+                "shiroko_home/Shiroko_home2.png",
+                "shiroko_ridingsuit_home/Shiroko_ridingsuit_home.atlas",
+                "shiroko_ridingsuit_home/Shiroko_ridingsuit_home.png",
+                "shiroko_ridingsuit_home/Shiroko_ridingsuit_home.skel",
+                "shiroko_ridingsuit_home/Shiroko_ridingsuit_home2.png",
+                "shiroko_ridingsuit_spr/shiroko_ridingsuit_spr.atlas",
+                "shiroko_ridingsuit_spr/shiroko_ridingsuit_spr.png",
+                "shiroko_ridingsuit_spr/shiroko_ridingsuit_spr.skel",
+                "shiroko_robber_spr/shiroko_robber_spr.atlas",
+                "shiroko_robber_spr/shiroko_robber_spr.png",
+                "shiroko_robber_spr/shiroko_robber_spr.skel",
+                "shiroko_spr/shiroko_spr.atlas",
+                "shiroko_spr/shiroko_spr.png",
+                "shiroko_spr/shiroko_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "shizuko",
+            "m": [
+                "shizuko_home/Shizuko_home.atlas",
+                "shizuko_home/Shizuko_home.png",
+                "shizuko_home/Shizuko_home.skel",
+                "shizuko_home/Shizuko_home2.png",
+                "shizuko_spr/shizuko_spr.atlas",
+                "shizuko_spr/shizuko_spr.png",
+                "shizuko_spr/shizuko_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "shun",
+            "m": [
+                "shun_home/Shun_home.atlas",
+                "shun_home/Shun_home.png",
+                "shun_home/Shun_home.skel",
+                "shun_home/Shun_home2.png",
+                "shun_home/UISprite.png",
+                "shun_spr/shun_spr.atlas",
+                "shun_spr/shun_spr.png",
+                "shun_spr/shun_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "soldier",
+            "m": [
+                "soldier_onsendev_rl_spr/Soldier_OnsenDev_RL_spr.atlas",
+                "soldier_onsendev_rl_spr/Soldier_OnsenDev_RL_spr.png",
+                "soldier_onsendev_rl_spr/Soldier_OnsenDev_RL_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "sora",
+            "m": [
+                "sora_spr/sora_spr.atlas",
+                "sora_spr/sora_spr.png",
+                "sora_spr/sora_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "sukeban",
+            "m": [
+                "sukeban_hmg_spr/sukeban_HMG_spr.atlas",
+                "sukeban_hmg_spr/sukeban_HMG_spr.png",
+                "sukeban_hmg_spr/sukeban_HMG_spr.skel",
+                "sukeban_smg_spr/sukeban_SMG_spr.atlas",
+                "sukeban_smg_spr/sukeban_SMG_spr.png",
+                "sukeban_smg_spr/sukeban_SMG_spr.skel",
+                "sukeban_sr_spr/sukeban_SR_spr.atlas",
+                "sukeban_sr_spr/sukeban_SR_spr.png",
+                "sukeban_sr_spr/sukeban_SR_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "sumire",
+            "m": [
+                "sumire_home/Sumire_home.atlas",
+                "sumire_home/Sumire_home.png",
+                "sumire_home/Sumire_home.skel",
+                "sumire_spr/sumire_spr.atlas",
+                "sumire_spr/sumire_spr.png",
+                "sumire_spr/sumire_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "suzumi",
+            "m": [
+                "suzumi_home/Suzumi_home.atlas",
+                "suzumi_home/Suzumi_home.png",
+                "suzumi_home/Suzumi_home.skel",
+                "suzumi_home/Suzumi_home2.png",
+                "suzumi_spr/suzumi_spr.atlas",
+                "suzumi_spr/suzumi_spr.png",
+                "suzumi_spr/suzumi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "tomoe",
+            "m": [
+                "tomoe_home/Tomoe_home.atlas",
+                "tomoe_home/Tomoe_home.png",
+                "tomoe_home/Tomoe_home.skel",
+                "tomoe_home/Tomoe_home2.png",
+                "tomoe_spr/tomoe_spr.atlas",
+                "tomoe_spr/tomoe_spr.png",
+                "tomoe_spr/tomoe_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "tsubaki",
+            "m": [
+                "tsubaki_home/Tsubaki_home.atlas",
+                "tsubaki_home/Tsubaki_home.png",
+                "tsubaki_home/Tsubaki_home.skel",
+                "tsubaki_home/Tsubaki_home2.png",
+                "tsubaki_spr/Tsubaki_spr.atlas",
+                "tsubaki_spr/Tsubaki_spr.png",
+                "tsubaki_spr/Tsubaki_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "tsurugi",
+            "m": [
+                "tsurugi_home/Tsurugi_home.atlas",
+                "tsurugi_home/Tsurugi_home.png",
+                "tsurugi_home/Tsurugi_home.skel",
+                "tsurugi_home/Tsurugi_home2.png",
+                "tsurugi_home/Tsurugi_home3.png",
+                "tsurugi_spr/tsurugi_spr.atlas",
+                "tsurugi_spr/tsurugi_spr.png",
+                "tsurugi_spr/tsurugi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "utaha",
+            "m": [
+                "utaha_home/Utaha_home.atlas",
+                "utaha_home/Utaha_home.png",
+                "utaha_home/Utaha_home.skel",
+                "utaha_home/Utaha_home2.png",
+                "utaha_spr/utaha_spr.atlas",
+                "utaha_spr/utaha_spr.png",
+                "utaha_spr/utaha_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "wakamo",
+            "m": [
+                "wakamo_home/Default-Particle.png",
+                "wakamo_home/FX_TEX_Wakamo_Lobby_Fire_01.png",
+                "wakamo_home/FX_TEX_Wakamo_Lobby_Fire_02.png",
+                "wakamo_home/FX_TEX_Wakamo_Lobby_Fire_03.png",
+                "wakamo_home/FX_TEX_Wakamo_Lobby_Fire_04.png",
+                "wakamo_home/Wakamo_home.atlas",
+                "wakamo_home/Wakamo_home.png",
+                "wakamo_home/Wakamo_home.skel",
+                "wakamo_home/Wakamo_home2.png",
+                "wakamo_home/Wakamo_Scene_0.atlas",
+                "wakamo_home/Wakamo_Scene_0.png",
+                "wakamo_home/Wakamo_Scene_0.skel",
+                "wakamo_home/Wakamo_Scene_02.png",
+                "wakamo_home/Wakamo_Scene_03.png",
+                "wakamo_home/Wakamo_Scene_04.png",
+                "wakamo_mask_spr/wakamo_mask_spr.atlas",
+                "wakamo_mask_spr/wakamo_mask_spr.png",
+                "wakamo_mask_spr/wakamo_mask_spr.skel",
+                "wakamo_spr/wakamo_spr.atlas",
+                "wakamo_spr/wakamo_spr.png",
+                "wakamo_spr/wakamo_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "yoheki",
+            "m": [
+                "yoheki_normal_spr/yoheki_normal1_spr.atlas",
+                "yoheki_normal_spr/yoheki_normal1_spr.png",
+                "yoheki_normal_spr/yoheki_normal1_spr.skel",
+                "yoheki_redwinter_spr/yoheki_redwinter1_spr.atlas",
+                "yoheki_redwinter_spr/yoheki_redwinter1_spr.png",
+                "yoheki_redwinter_spr/yoheki_redwinter1_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "yoshimi",
+            "m": [
+                "yoshimi_home/Yoshimi_home.atlas",
+                "yoshimi_home/Yoshimi_home.png",
+                "yoshimi_home/Yoshimi_home.skel",
+                "yoshimi_home/Yoshimi_home2.png",
+                "yoshimi_spr/yoshimi_spr.atlas",
+                "yoshimi_spr/yoshimi_spr.png",
+                "yoshimi_spr/yoshimi_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "yukata",
+            "m": [
+                "yukata_streetghostes_mg_spr/Yukata_StreetGhostes_MG_spr.atlas",
+                "yukata_streetghostes_mg_spr/Yukata_StreetGhostes_MG_spr.png",
+                "yukata_streetghostes_mg_spr/Yukata_StreetGhostes_MG_spr.skel",
+                "yukata_streetghostes_rl_spr/Yukata_StreetGhostes_RL_spr.atlas",
+                "yukata_streetghostes_rl_spr/Yukata_StreetGhostes_RL_spr.png",
+                "yukata_streetghostes_rl_spr/Yukata_StreetGhostes_RL_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "yustina",
+            "m": [
+                "yustina_sr_spr/Yustina_SR1_spr.atlas",
+                "yustina_sr_spr/Yustina_SR1_spr.png",
+                "yustina_sr_spr/Yustina_SR1_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "yuuka",
+            "m": [
+                "yuuka_home/Yuuka_home.atlas",
+                "yuuka_home/Yuuka_home.png",
+                "yuuka_home/Yuuka_home.skel",
+                "yuuka_home/Yuuka_home2.png",
+                "yuuka_spr/yuuka_spr.atlas",
+                "yuuka_spr/yuuka_spr.png",
+                "yuuka_spr/yuuka_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "yuzu",
+            "m": [
+                "yuzu_home/yuzu_bg.atlas",
+                "yuzu_home/yuzu_bg.png",
+                "yuzu_home/yuzu_bg.skel",
+                "yuzu_home/Yuzu_home.atlas",
+                "yuzu_home/Yuzu_home.png",
+                "yuzu_home/Yuzu_home.skel",
+                "yuzu_spr/yuzu_spr.atlas",
+                "yuzu_spr/yuzu_spr.png",
+                "yuzu_spr/yuzu_spr.skel"
+            ],
+            "r": 3,
+            "raw": true
+        },
+        {
+            "n": "zunko",
+            "m": [
+                "zunko_home/Zunko_home.atlas",
+                "zunko_home/Zunko_home.png",
+                "zunko_home/Zunko_home.skel",
+                "zunko_home/Zunko_home2.png",
+                "zunko_spr/zunko_spr.atlas",
+                "zunko_spr/zunko_spr.png",
+                "zunko_spr/zunko_spr.skel"
             ],
             "r": 3,
             "raw": true

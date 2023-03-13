@@ -1,0 +1,31 @@
+{
+    "t": "TenkafuMA!",
+    "b": [
+        null,
+        null,
+        null,
+        "https://raw.githack.com/jomin398/spine-db/master/other/tkfm/spine/"
+    ],
+    "d": [
+        {
+            "n": "10922",
+            "r": 3
+        },
+        {
+            "n": "Aiko",
+            "r": 3
+        },
+        {
+            "n": "Inori",
+            "r": 3
+        },
+        {
+            "n": "Lily",
+            "r": 3
+        },
+        {
+            "n": "Nana",
+            "r": 3
+        }
+    ]
+}
